@@ -12,54 +12,41 @@ export interface Project {
 
 export const projects: Project[] = [
   {
-    name: 'Devaradise.com',
-    description: 'A blog that sharing web development resources and tutorials',
-    demoLink: 'https://devaradise.com',
-    tags: ['Blog']
+    name: 'Sorting Algorithms',
+    description: 'Comparative analysis of Bubble, Quick, and Counting Sorts.',
+    demoLink: 'https://github.com/MehdiLazaar/Sorting_Algorithms',
+    tags: ['JAVA']
   },
   {
-    name: 'Sellercraft App',
-    description: 'An Ecommerce omnichannel platform in Southeast Asia',
-    demoLink: 'https://sellercraft.co',
+    name: 'Maze',
+    description: 'Maze solving project using C, threads, and processes for sequential and parallelized solutions.',
+    demoLink: 'https://github.com/MehdiLazaar/Maze',
     demoLinkRel: 'nofollow noopener noreferrer',
-    tags: ['ECommerce', 'Saas']
+    tags: ['C']
   },
   {
-    name: 'Gaji.id App',
-    description: 'Payroll and HR Management Information System',
-    demoLink: 'https://sellercraft.co',
+    name: 'Linked Lists',
+    description: 'Singly linked list in Java with operations',
+    demoLink: 'https://github.com/MehdiLazaar/Linked_Lists',
     demoLinkRel: 'nofollow noopener noreferrer',
-    tags: ['HRIS', 'Saas']
+    tags: ['JAVA']
   },
   {
-    ...(await getRepositoryDetails('devaradise/paradise-ui')),
-    name: 'Paradise UI',
-    demoLink: 'https://paradise-ui.com',
-    postLink: 'https://devaradise.com/how-i-build-paradise-ui-react-component-library/',
-    tags: ['React', 'UI Library']
+    name: 'Flappy Bird',
+    description : 'Flappy Bird game in Java with XML and OOP',
+    demoLink: 'https://github.com/MehdiLazaar/Flappy_Bird',
+    tags: ['JAVA', 'XML']
   },
   {
-    ...(await getRepositoryDetails('syakirurahman/react-lab')),
-    name: 'React Lab',
-    demoLink: 'https://devaradise.com/lab/react/',
-    tags: ['React']
+    name: 'Quantik Game',
+    description: 'Quantik: two-player strategic game, tactical and challenging.',
+    demoLink: 'https://github.com/MehdiLazaar/QuantikGame',
+    tags: ['PHP','MYSQL','CSS']
   },
   {
     ...(await getRepositoryDetails('syakirurahman/pokemon-catcher')),
-    name: 'Pokemon Catcher',
-    demoLink: 'https://pokemon-catcher-18636.web.app/',
-    tags: ['Hobby']
-  },
-  {
-    ...(await getRepositoryDetails('syakirurahman/movie-nominations')),
-    name: 'Movie Nominations',
-    demoLink: 'https://movie-nominations-c21c3.web.app/',
-    tags: ['Hobby']
-  },
-  {
-    ...(await getRepositoryDetails('syakirurahman/organization-tree')),
-    name: 'Organization tree',
-    demoLink: 'https://organization-tree-2a446.web.app/',
-    tags: ['Hobby']
+    name: 'Symfony Blog Page',
+    demoLink: 'https://github.com/MehdiLazaar/Projet_Blog_Symfony',
+    tags: ['Symfony','TWIG','MySQL', 'PHP']
   }
 ]
