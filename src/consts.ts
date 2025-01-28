@@ -2,5 +2,5 @@
 // You can import this data from anywhere in your site by using the `import` keyword.
 
 export const SITE_TITLE = 'Mehdi Lazaar';
-export const SITE_TAGLINE = 'Website'; // site tagline
+export const SITE_TAGLINE = 'Portfolio Website'; // site tagline
 export const SITE_DESCRIPTION = 'Portfolio Website'; // site meta description for SEO
